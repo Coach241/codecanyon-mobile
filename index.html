@@ -4,13 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Codecademy</title>
 </head>
 <body>
     <!-- Ceci représente notre page d'accueil-->
     <div class="main-container">
+        <div class="info">
+            <p>Codecademy is now a part of skillsoft!</p>
+            <p class="yellow">Learn more</p>
+            <div class="btn-clear"><span id="milieu"></span></div>
+        </div>
         <!--Ici notre header codé par Farrel-->
         <sergey-import src="header"/>
+        <header>
+            <div class="image">
+                <svg fill="currentColor" role="img" aria-hidden="true" class="e1gidkku0 gamut-mnhulo-Svg-StyledDiagonalADense-sharedImageStyles e3tf18d0"><title>Diagonal A Dense</title><pattern id="DiagonalADense-pattern-1" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="1" height="1" fill="currentColor"></rect><rect x="2" y="2" width="1" height="1" fill="currentColor"></rect><rect x="1" y="2" width="1" height="1" fill="currentColor"></rect><rect x="1" y="3" width="1" height="1" fill="currentColor"></rect><rect y="3" width="1" height="1" fill="currentColor"></rect><rect x="3" width="1" height="1" fill="currentColor"></rect><rect x="3" y="1" width="1" height="1" fill="currentColor"></rect><rect x="2" y="1" width="1" height="1" fill="currentColor"></rect></pattern><rect width="100%" height="100%" fill="url(#DiagonalADense-pattern-1)"></rect></svg>
+                <img src="images/header.jpeg">
+            </div>
+            <form>
+                <h2>Join the millions learning to code with Codecademy for free</h2>
+                <div class="champs">
+                    <label for="mail">Email</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div class="champs">
+                    <label for="pass">Email</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <button id="send">Sing up</button>
+                <p id="para">By signing up for Codecademy, you agree to Codecademy's <a href="#">Terms of Service</a> & <a href="#">Privacy Policy</a></p>
+                <p class="alternatif">Or sign using:</p>
+                <div class="mode_sing">
+                    <button id="in">
+                        <img src="icone/in_linked_linkedin_media_social_icon_124259.png">
+                    </button>
+                    <button id="google">
+                        <img src="icone/google_icon-icons.com_62736.png">
+                    </button>
+                    <button id="fbk">
+                        <img src="icone/Facebook_icon-icons.com_66805.png">
+                    </button>
+                    <button id="git">
+                        <img src="icone/github-logo_icon-icons.com_73546.png">
+                    </button>
+                </div>
+            </form>
+        </header>
 
         <!--bloc photo jusqu'à fin du formulaire codé par JB-->
 
@@ -19,6 +59,41 @@
         <!--Bloc jaune... not sure where to start codé par Farrel-->
 
         <!--Bloc stories from real people code par JB-->
+        <div class="stories">
+            <h2>Stories from real people</h2>
+            <p>Watch and read stories from the Codecademy community.</p>
+            <div class="articles">
+                <article>
+                    <div class="img">
+                        <img src="images/GiacomoSorbi.jpeg">
+                    </div>
+                    <p class="description">Taking a diffrent path: One Team Lead's story</p>
+                    <p class="auteur">Giacomo s. , Team Lead, London</p>
+                </article>
+                <article>
+                    <div class="img">
+                        <img src="images/AlisonVoghel.jpg">
+                    </div>
+                    <p class="description">See how this Architect switched to UX Design</p>
+                    <p class="auteur">Alison V. , SenioI UX DesigneI <br> @Acquia, Columbus</p>
+                </article>
+                <article>
+                    <div class="img">
+                        <img src="images/ManuelSousa.jpg">
+                    </div>
+                    <p class="description">Lessons from a Chef turned Deputy CTO</p>
+                    <p class="auteur">Manuel S. , Deputy CTO <br> @ PaxFamilia, Brussels</p>
+                </article>
+                <article>
+                    <div class="img">
+                        <img src="images/Rosita.jpg">
+                    </div>
+                    <p class="description">How one Developer learned to code with her disability</p>
+                    <p class="auteur">Rosita R. , front-end <br> Developer , Biummen</p>
+                </article>
+            </div>
+            <p class="more_stories"><a href="#">Explore more storiea</a></p>
+        </div>
 
         <!--Bloc Join in on something big Codé par Abraham-->
 
