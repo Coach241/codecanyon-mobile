@@ -1,0 +1,11 @@
+*,::before,::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contener{
+    width: 412px;
+    min-height: 100vh;
+    background-color: #FFF0E5;
+}
