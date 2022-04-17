@@ -1,0 +1,47 @@
+
+#code-challenges{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+.wrapper{
+    width: 412px;
+    background-color: #f5fcff;
+    padding: 15px 10px;
+    margin:0 auto;
+}
+#code-challenges h3{
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    padding-left: 10px;
+    margin-left: 20px;
+    
+}
+#code-challenges h1{
+    font-size: 35px;
+}
+.challenges p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.grid{
+    width: 99%;
+    margin:0 auto;
+    
+}
+.grid div{
+    border:1px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: #fff;
+}
+.grid h1{
+    font-size:25px;
+}

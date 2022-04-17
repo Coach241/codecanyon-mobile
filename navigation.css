@@ -1,0 +1,39 @@
+#search-icon{
+    display: inline-block;
+    width: 20px;
+    position:relative;
+    left: 380px;
+    top:-35px;
+}
+input{
+    padding:15px;
+    width: 100%;
+}
+nav{
+    width: 412px;
+    margin: 0 auto;
+    background-color: #f5fcff;
+}
+.sous-onglet{
+    display: none;
+}
+nav li{
+    list-style: none;
+
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+}
+.notebook,.resources,.community,.pricing,.business{
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+}
+.arrow img{
+    display: inline-block;
+    width: 10px;
+    position:relative;
+    left: 250px;
+}
+
