@@ -105,5 +105,10 @@ dist
 #nodes
 package-lock.json
 package.json
+<<<<<<< HEAD
 #icones
 fontawesome
+=======
+package-lock.json
+package.json
+>>>>>>> a0e649c4b1b590690d74ea5759faaa80f64dca1a
