@@ -5,7 +5,123 @@
     font-family: sans-serif;
 }
 .contener{
+    padding: 0 10px;
     width: 412px;
     min-height: 100vh;
     background-color: #FFF0E5;
+}
+/*
+   
+*/
+.congelateur h3{
+    font-size: 1.3em;
+}
+.min-title{
+    margin: 30px 0;
+}
+
+.congelateur > h3{
+    margin: 65px 0;
+}
+
+.min-title > p{
+    font-size: 0.7em;
+    margin: 10px 0;
+}
+.blue{
+    color: #7764E5;
+}
+.bloc-img{
+    width: 100%;
+    height: 220px;
+}
+.img-navi{
+    background: url("images/congelo.png");
+    background-size: 100% 100%;
+}
+.img-canvas{
+    background: url("images/canvas.jpeg");
+    background-size: 100% 100%;
+}
+.blocDraw{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 180px;
+    margin: 20px 0;
+}
+.box-color{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    margin: 10px 0;
+}
+.box-color.yellow{
+    background-color: #FFD500;
+}
+.box-color.royalblue{
+    background-color: #3069F0;
+}
+.box p{
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+.carres{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 40%;
+    left: 60%;
+    transform: translate(-60%,-40%);
+}
+.carres div{
+    display: inline-block;
+    width: 20px;
+    height: 100%;
+}
+.box-color.yellow .carres div{
+    background-color: #47CCA0;
+}
+.box-color.royalblue .carres div{
+    background-color: #FFD500;
+}
+.lines{
+    position: absolute;
+    bottom: 15px;
+    left: 18%;
+    width: 70px;
+    height: 20px;
+}
+.lines::before,.lines::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+}
+.box-color.yellow .lines::before,.box-color.yellow .lines::after{
+    background-color: #3069F0;
+}
+.box-color.royalblue .lines::before,.box-color.royalblue .lines::after{
+    background-color: #4FE0B0;
+}
+.lines::before{
+    top: 0;
+}
+.lines::after{
+    bottom: 0;
+}
+.box-color.denim{
+    background: url("images/video.jpeg");
+    background-size: 100% 100%;
+}
+.bottom-page{
+    padding: 8px 20px;
+    display: inline-block;
+    margin: 30px 28%;
+    background: none;
+    border:  solid 2px #6a47e4;
+    color: #6a47e4;
+    border-radius: 8px;
 }
