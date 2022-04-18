@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 *,::before,::after{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 .main-container{
@@ -150,8 +148,6 @@ article .img img{
     font-size: 0.8em;
     font-weight: bold;
 }
-<<<<<<< HEAD
-=======
 *{
     margin: 0px;
     padding: 0px;
@@ -233,6 +229,3 @@ h1{
     justify-content: space-around;
     color: aliceblue;
 }
->>>>>>> a0e649c4b1b590690d74ea5759faaa80f64dca1a
-=======
->>>>>>> de68df612ffb3b0cf471d25db5d3bf7453342cab

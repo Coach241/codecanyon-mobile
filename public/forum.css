@@ -1,7 +1,51 @@
 .en-tete{
-    width: 412px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff !important;
+    padding: 10px 2px;
+    
+}
+.en-tete a{
+    text-decoration: none;
+    color:black;
+    padding: 2px 15px;
 }
 
 .en-tete img{
+    width: 120px;
+}
+.form{
+    width: 412px;
+    margin:0 auto;
+    
+    background-color: #f5fcff;
+}
+.banner img{
+    width: 100%;
+    
+}
+#title{
+    margin-left: 20px;
+}
+#para1,.link{
+    margin-left: 35px;
+}
+input[type="search"]{
+    padding: 10px 35px ;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     width: 200px;
+    display: inline-block;
+}
+.categories{
+    margin-left: 20px;
+    margin-top: 25px;
+    
+}
+.categories button{
+    padding: 5px 15px;
+    font-size:16px;
 }
