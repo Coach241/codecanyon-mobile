@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 412px;
+    min-height: 100vh;
+    background-color: #fff0E5;
+
+}
+
+footer li{
+    list-style-type: none;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.contenaire{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+}
+
