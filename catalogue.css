@@ -1,127 +1,160 @@
-*,::before,::after{
+*,
+::before,
+::after {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.contener{
+
+.contener {
     padding: 0 10px;
     width: 412px;
     min-height: 100vh;
     background-color: #FFF0E5;
+    margin: 0 auto;
 }
+
+
 /*
    
 */
-.congelateur h3{
+
+.congelateur h3 {
     font-size: 1.3em;
 }
-.min-title{
+
+.min-title {
     margin: 30px 0;
 }
 
-.congelateur > h3{
+.congelateur>h3 {
     margin: 65px 0;
 }
 
-.min-title > p{
+.min-title>p {
     font-size: 0.7em;
     margin: 10px 0;
 }
-.blue{
+
+.blue {
     color: #7764E5;
 }
-.bloc-img{
+
+.bloc-img {
     width: 100%;
     height: 220px;
 }
-.img-navi{
+
+.img-navi {
     background: url("images/congelo.png");
     background-size: 100% 100%;
 }
-.img-canvas{
+
+.img-canvas {
     background: url("images/canvas.jpeg");
     background-size: 100% 100%;
 }
-.blocDraw{
+
+.blocDraw {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.box{
+
+.box {
     width: 180px;
     margin: 20px 0;
 }
-.box-color{
+
+.box-color {
     position: relative;
     width: 100%;
     height: 90px;
     margin: 10px 0;
 }
-.box-color.yellow{
+
+.box-color.yellow {
     background-color: #FFD500;
 }
-.box-color.royalblue{
+
+.box-color.royalblue {
     background-color: #3069F0;
 }
-.box p{
+
+.box p {
     margin-bottom: 5px;
     font-size: 0.9em;
 }
-.carres{
+
+.carres {
     position: absolute;
     width: 70px;
     height: 20px;
     top: 40%;
     left: 60%;
-    transform: translate(-60%,-40%);
+    transform: translate(-60%, -40%);
 }
-.carres div{
+
+.carres div {
     display: inline-block;
     width: 20px;
     height: 100%;
 }
-.box-color.yellow .carres div{
+
+.box-color.yellow .carres div {
     background-color: #47CCA0;
 }
-.box-color.royalblue .carres div{
+
+.box-color.royalblue .carres div {
     background-color: #FFD500;
 }
-.lines{
+
+.lines {
     position: absolute;
     bottom: 15px;
     left: 18%;
     width: 70px;
     height: 20px;
 }
-.lines::before,.lines::after{
+
+.lines::before,
+.lines::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 8px;
 }
-.box-color.yellow .lines::before,.box-color.yellow .lines::after{
+
+.box-color.yellow .lines::before,
+.box-color.yellow .lines::after {
     background-color: #3069F0;
 }
-.box-color.royalblue .lines::before,.box-color.royalblue .lines::after{
+
+.box-color.royalblue .lines::before,
+.box-color.royalblue .lines::after {
     background-color: #4FE0B0;
 }
-.lines::before{
+
+.lines::before {
     top: 0;
 }
-.lines::after{
+
+.lines::after {
     bottom: 0;
 }
-.box-color.denim{
+
+.box-color.denim {
     background: url("images/video.jpeg");
     background-size: 100% 100%;
 }
-.bottom-page{
+
+.bottom-page {
     padding: 8px 20px;
     display: inline-block;
     margin: 30px 28%;
     background: none;
-    border:  solid 2px #6a47e4;
+    border: solid 2px #6a47e4;
     color: #6a47e4;
     border-radius: 8px;
 }
