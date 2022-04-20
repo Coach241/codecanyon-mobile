@@ -33,20 +33,21 @@ body{
  
 .pp{
     position: relative;
-    bottom: 25px;
+    bottom: 5px;
     left: 55px;
 }
 
 .grdpara{
     position: relative;
-    bottom: 25px;
+    bottom: -15px;
     left: 15px;
 }
 
 .p2p{
    position: relative;
-   bottom: 40px;
+   bottom: -45px;
    left: 130px;
+   margin: 2px;
 }
 
 #conteneur{
@@ -60,22 +61,34 @@ body{
 }
 #carréviolet{
     display: flex;
+    width: 412px;
     background-color: purple;
-    width: auto;
-    height: 400px;;
+    height: 300px;
+    padding: 15px;
+
     
 }
 
 h1{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+}
+
+.gh1 h1{
+    height: 45px;
+    width: 300px;
+    /* border: 1px solid black;
+    background-color: rgb(89, 212, 212); */
+    color: black;
+   
 }
 
 .chiffre{
     width: 100px;
     height: 50px;
     position: relative;
-    top: 100px;
-    right: 190px;
+    top: 150px;
+    right: 150px;
     justify-content: space-around;
     color: aliceblue;
+    
 }
