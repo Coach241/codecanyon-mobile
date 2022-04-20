@@ -1,15 +1,17 @@
-*{
+* {
     width: 0;
     height: 0;
     box-sizing: border-box;
 }
-.contenaire{
-    width: 420px;
+
+.contenaire {
+    width: 412px;
     height: 555px;
     color: #F0F3FF;
 }
-.enfant{
-    width: 420px;
+
+.enfant {
+    width: 412px;
     height: 555px;
     background-color: #F0F3FF;
 }

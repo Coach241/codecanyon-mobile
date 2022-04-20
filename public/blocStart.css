@@ -1,13 +1,22 @@
-.blocStart{
+.blocStart {
+    background-color: #3A10E5;
+    padding: 20px 15px;
+}
+
+.blocStart img {
+    width: 250px;
     background-color: #3A10E5;
 }
-.blocStart h1,.blocStart p{
-    color:white;
+
+.blocStart h1,
+.blocStart p {
+    color: white;
     margin-bottom: 20px;
 }
-.blocStart button{
+
+.blocStart button {
     background-color: #FFD300;
-    padding:5px 15px;
+    padding: 5px 15px;
     margin-bottom: 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
